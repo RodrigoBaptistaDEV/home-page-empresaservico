@@ -1,0 +1,359 @@
+*{
+    font-family: arial;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+.container{
+    display:flex;
+    justify-content: space-between;
+    width: 990px;
+}
+.logo{
+    display:flex;
+    align-items: center;
+}
+.menu{
+    display:flex;
+    align-items: center;
+}
+nav ul, nav li{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+nav ul{
+    display:flex;
+
+}
+nav a{
+    display:block;
+    padding:15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+nav .active, nav a:hover{
+    background-color: #39aae1;
+} 
+.collum{
+    flex-direction: column;
+}
+#banner{
+    background-image:  url('../imagens/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    min-height: 670px;
+    display: flex;
+    justify-content: center;
+}
+.bannerheadline{
+    flex: 1;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.bannerheadline h1{
+    color: #fff;
+    font-size: 60px;
+    text-shadow: 0px 3px 0px #555555;
+    margin:0px;
+    padding: 0px;
+    max-width: 350px;
+}
+.bannerheadline h2{
+    color: #fff;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555555;
+    margin:0px;
+    padding: 0px;
+    max-width: 350px;
+    padding-top: 30px;
+}
+.banneroptions{
+    height: 210px;
+    display:flex;
+}
+.banner1, .banner2, .banner3{
+    flex: 1;
+    color: #fff;
+    padding:20px;
+}
+.banner1{
+    background-color: #39aae1;
+}
+.banner2{
+    background-color: #0079c7;
+}
+.banner3{
+    background-color: #213d7c;
+}
+.bannertitle{
+    font-size: 21px;   
+}
+.bannerdesc{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banneroptions a {
+    display: inline-block;
+    font-size: 12px;
+    border: 1px solid #fff;
+    padding:5px;
+    text-decoration: none;
+    color: #fff;
+}
+.bannerhours{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.week{
+    display:flex;
+    justify-content: space-between;
+    font-size: 12px;
+    border-bottom: 1px solid #4b62a8;
+}
+#middle{
+    display: flex;
+    justify-content: center;
+}
+#middle section{
+    flex:2;
+}
+#middle aside{
+    flex:1;
+}
+.widget{
+    margin-top:30px;
+    margin-bottom: 20px;
+}
+.wttext{
+    color: black;
+    font-size: 21px;
+}
+.wtbar{
+    width: 65px;
+    height: 3px;
+    background-color: #39aae1;
+}
+.widget-body-depart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.depart-box,.depart-boxfinal {
+    width: 150px;
+    height: 150px;
+    background-color: #39aae1;
+    margin-bottom: 27px;
+}
+.depart-boxfinal{
+    margin-bottom: 0px;
+}
+.apoint{
+    display: block;
+}
+.mailboxic1{
+    width: 30px;
+    vertical-align: middle;
+}
+.apoint1{
+    border-top: 1px solid #c9c3c3;
+}
+.apoint1 p{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    padding-left: 3px;
+}
+.apointext{
+    font-size: 12px;
+}
+.final{
+    border-bottom: 1px solid #c9c3c3;
+}
+.newsbody{
+    display:flex;
+    flex-wrap: wrap;
+}
+.newsbody article{
+    flex: 1;
+    min-width: 300px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-bottom: 1px solid #c9c3c3;
+}
+article .posted{    
+    display:flex
+}
+article .date1{
+    background-color: #2b4c99;
+    color:#fff;
+    font-size:12px;
+    padding:10px;
+    margin-right: 2px;
+}
+article .date2{
+    background-color: #39aae1;
+    color:#fff;
+    font-size:12px;
+    padding:10px;
+}
+article .imagenew{
+    margin-top: 30px;
+}
+article .imagenew img{
+    width: 100%;
+    height: auto;
+}
+article .ntitle{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 21px;
+    color: black;
+}
+article .ndesc{
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+article a{
+    text-decoration: none;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #080808;
+}
+.fbanners{
+    display:flex;
+    flex:1;
+}
+.fb1,.fb2,.fb3{
+    color: white;
+    flex: 1;
+}
+.fb1{
+    background-color: #39aae1;
+}
+.fb2{
+    background-color: #0079c7;
+}
+.fb3{
+    background-color: #213d7c;
+}
+.fbanners h1{
+    font-size: 21px;
+    padding-left: 30px;
+    font-weight: normal;
+}
+.fbanners p{
+    font-size: 12px;
+    font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.farea{
+    display:flex;
+}
+.farea .widget{
+    flex:1;
+}
+.farea .wttext{
+    color:#fff;
+}
+.content p{
+    font-size: 12px;
+    color:#c9c3c3;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin:0px; 
+}
+ul{
+    padding-top: 20px;
+    padding-left: 15px;
+    margin: 0px;
+    padding-right: 30px;
+    list-style-type:square
+}
+ul li{
+    font-size: 12px;
+    color:#c9c3c3;
+    padding-bottom: 20px;
+}
+.footerlow{
+    font-size: 12px;
+    color:#c9c3c3;
+    border-top: 1px solid grey;
+}
+.menumobile{
+    display:none;
+    width:40px;
+    height:40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+.mmline{
+    height:3px;
+    background-color: #0079c7;
+}
+
+@media (max-width:600px){
+    .bannerheadline{
+        padding:20px
+    }
+    .bannerheadline h1{
+        font-size: 55px;
+    }
+    .bannerheadline h2{
+        font-size: 17px;
+    }
+    .banneroptions{
+        height:auto;
+        flex-direction: column;
+    }
+    .container{
+        flex-direction: column;
+    }
+    section,aside{
+        padding:20px
+    }
+    .farea{
+        padding: 20px;
+    }
+    .footerlow{
+        padding-left:20px;
+    }
+    header .container{
+        flex-direction: row;
+    }
+    nav ul{
+        flex-direction: column;
+        display:none;
+        position:absolute;
+        left:0;
+        width: 100%;
+        background-color: #fff;
+    }
+    header{
+        height: auto;
+    }
+    .logo{
+        padding-left: 20px;
+    }
+    .menumobile{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+}
